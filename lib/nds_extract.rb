@@ -9,8 +9,9 @@ def directors_totals(nds)
   pp nds
   
   row_index = 0
-  inner_index = 0
+  
  while row_index < nds.count do
+  inner_index = 0
    directors_name = nds[row_index][:name]
    directors_total[directors_name] = 0
    
